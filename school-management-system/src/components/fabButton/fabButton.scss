@@ -1,0 +1,119 @@
+.page.fab-button-page {
+  background: #16151b;
+  }
+  
+  .fab {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .fab button {
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+  }
+  
+  .fab > button {
+    position: relative;
+    right: 0px;
+    bottom: -10px;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 0;
+    border: 0;
+    color: #f9f9f9;
+    transition: 0.2s;
+    rotate: 0deg;
+    background-color: red;
+  }
+  
+  .fab > button > span {
+    font-size: 36px;
+ margin: 0 auto;
+ 
+  }
+  
+  .fab-menu {
+    position: absolute;
+    z-index: 0;
+    top: 50%;
+    left: 50%;
+    width: 360px;
+    height: 360px;
+    translate: -50% -50%;
+    border: 80px solid yellow ;
+    box-shadow: 0 0px 50px rgb(202, 216, 3);
+    border-radius: 50%;
+    rotate: -220deg;
+    scale: 0.7;
+    opacity: 0;
+    transition: 0.4s ease-out;
+    background: transparent;
+    backdrop-filter: blur(30px);
+   
+  }
+ 
+  
+  .fab.open > button {
+    rotate: 405deg;
+  }
+  
+  .fab.open .fab-menu {
+    rotate: 0deg;
+    scale: 1;
+    opacity: 1;
+  }
+  
+  .fab-menu > button {
+    position: absolute;
+    color: #e0e0e0;
+    transition: 0.4s;
+  }
+  .plussing{
+    
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+    
+
+  }
+  .fab-menu > button svg:hover {
+    scale: 1.2;
+    
+  }
+  .fab-menu > button svg {
+  
+    color: #000;
+  }
+  .material-symbols-outlined {
+    font-size: 36px;
+  
+  }
+  
+  .fab-menu > button:nth-child(1) {
+    left: 78px;
+    top: -58px;
+  }
+  
+  .fab-menu > button:nth-child(2) {
+    left: -16px;
+    top: -16px;
+  }
+  
+  .fab-menu > button:nth-child(3) {
+    left: -58px;
+    top: 78px;
+  }
+ 

@@ -1,0 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url(./assets/images/background.jpg ) no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+
+.loader-overlay .loader {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ccc;
+  border-top-color: #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.ListBody1 {
+  border-bottom: 2px solid #007bff !important;
+}
+
+.menu {
+  background-color: #fff !important;
+  border: none !important;
+
+}
+
+.menu li Button {
+  background-color: #007bff !important;
+  margin-bottom: 22px !important;
+}
+
+.menu li Button:hover {
+  background-color: #4096ff !important;
+
+}
+
+span:hover {
+  color: #007bff !important;
+
+}
+
+:where(.css-dev-only-do-not-override-1d4w9r2).ant-select-dropdown .ant-select-item-option-content {
+  color: #000 !important;
+
+}
+
+:where(.css-dev-only-do-not-override-1d4w9r2).ant-select-dropdown {
+  background-color: #007bff !important;
+  color: #000 !important;
+}
+
+:where(.css-1d4w9r2)[class^="ant-select"] [class^="ant-select"],
+:where(.css-1d4w9r2)[class*=" ant-select"] [class^="ant-select"],
+:where(.css-1d4w9r2)[class^="ant-select"] [class*=" ant-select"],
+:where(.css-1d4w9r2)[class*=" ant-select"] [class*=" ant-select"] {
+  color: #000 !important;
+}
+
+

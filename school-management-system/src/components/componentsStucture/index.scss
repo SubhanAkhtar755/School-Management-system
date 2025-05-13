@@ -1,0 +1,49 @@
+span{
+    color: #fff;
+}
+.ListBody{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 900;
+    cursor: pointer;
+    &:hover{
+        color: #888;
+    }
+    margin-top: 10px;
+    border-bottom: 1px solid #c51b1b;
+    position: fixed;
+    top: 0;
+    left: 50%;
+}
+
+.container .ListBody{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 900;
+    cursor: pointer;
+    &:hover{
+        color: #888;
+    }
+    margin-top: 10px;
+    border-bottom: 3px solid #1677ff !important;
+}
+h1{
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: center;
+    display: flex;
+}
+.sider{
+    // min-height:850px;
+  }
+  .ListBody{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 900;
+    cursor: pointer;
+    &:hover{
+        color: #888;
+    }
+    margin-top: 10px;
+    border-bottom: 3px solid #1677ff !important;
+}

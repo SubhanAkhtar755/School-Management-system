@@ -1,0 +1,256 @@
+h1 {
+  color: #000 !important;
+}
+
+.searchbar {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-right: 100px;
+  margin-bottom: 10px;
+}
+.searchbar input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #333;
+  margin-right: 20px;
+  transition: width 0.3s ease-in-out;
+  &:focus {
+    width: 200px;
+  }
+}
+
+.searchbar button {
+  padding: 5px 10px;
+  border: none;
+  background-color: #0069d9;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #00458b;
+  }
+  margin-left: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 10px;
+  margin: 10px;
+  width: 70px;
+}
+.teacher-card {
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  display: flex !important;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+
+  &:hover {
+    box-shadow: 0px 0px 10px rgba(184, 22, 22, 0.1);
+  }
+  border-radius: 10px;
+}
+
+.Address {
+  margin-top: 10px;
+  font-size: 15px !important;
+  line-height: 1.5;
+  text-shadow: none !important;
+  text-decoration: none !important;
+}
+.details {
+  width: 100%;
+  margin-top: 10px;
+  color: #666;
+  transition: color 0.3s ease;
+  div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    p {
+      margin-bottom: 5px;
+      font-size: 16px;
+      display: flex;
+      color: #000;
+
+      &:hover {
+        color: #888;
+      }
+    }
+  }
+}
+.TeachersOnline h1 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #0069d9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #e0e0e0;
+  }
+  text-shadow: none !important;
+}
+.teacher-Apply-request {
+  margin-bottom: 20px;
+}
+:where(.css-dev-only-do-not-override-1a3rktk).ant-card .ant-card-head-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: green;
+}
+.Address {
+  font-size: 16px;
+  color: #000 !important;
+  margin-top: 10px;
+}
+
+.dropdown {
+  min-width: 15em;
+  position: relative;
+  margin: 2em;
+}
+.dropdown * {
+  box-sizing: border-box;
+  color: #fff;
+}
+.select {
+  color: #fff;
+  background-color: #2a2f3b;
+  border: 2px solid #2a2f3b;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.select-clicked {
+  border: 2px solid #26489a;
+  box-shadow: 0 0 0.8em #26489a;
+}
+.select:hover {
+  background: #323741;
+}
+.caret {
+  width: 10px;
+  height: 50px;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  transition: 0.3s;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+}
+.caret1 {
+  width: 150px;
+  height: 50px;
+  transition: 0.3s;
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+.caret-rotate {
+  transform: rotate(180deg);
+}
+.menu {
+  background: #323741;
+  padding: 0.2em 0.5em;
+  border: 1px solid #363a43;
+  list-style: none;
+  border-radius: 0.5em;
+  box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+  color: #9fa5b5;
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  margin-top: 10px !important;
+  transition: 0.3s;
+  z-index: 1;
+  display: none;
+}
+
+.menu li {
+
+  margin-bottom: 0.3em 0;
+  border-radius: 0.5em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: -20px;
+}
+
+
+
+.active {
+  display: block;
+  opacity: 1;
+}
+
+:where(.css-dev-only-do-not-override-1a3rktk).ant-select
+  .ant-select-selection-item {
+  color: #000 !important;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.svg{
+  fill: #d70a0a !important;
+  transition: fill 0.3s ease;
+  margin-right: 10px !important;
+}
+.imgcardhover:hover{
+height: 240px !important;
+}
+.middle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  height: 25px;
+ 
+}
+.loader-overlay .loader {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ccc;
+  border-top-color: #007bff;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bothhh .details p{
+  text-shadow: none !important;
+}
+.displayed{
+text-shadow: none !important;
+  color: #000 !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  margin-bottom: 10px !important;
+}

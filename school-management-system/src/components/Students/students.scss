@@ -1,0 +1,634 @@
+
+.StudentsFees{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+h1 {
+  color: #000 !important;
+  display: flex;
+}
+.rowm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center !important;
+  align-items: center;
+}
+.formitems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  margin-right: 100px;
+  width: 100%;
+  
+}
+
+.formitems label {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.formitems input {
+  width: 100% !important;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 150px !important;
+}
+
+.TextArea label {
+  margin-left: 50px !important;
+}
+.ListBody1 {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 900;
+  cursor: pointer;
+  &:hover {
+    color: #888;
+  }
+  margin-top: 10px;
+  border-bottom: 1px solid #c51b1b;
+}
+.StudentsFees h1 {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f1f1;
+  padding: 10px;
+  color: #000;
+}
+.StudentsFeesForm {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.StudentsFeesForm form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+}
+.StudentsFeesForm form label {
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  width: 100%;
+  padding-left: 10px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 900;
+  display: flex;
+}
+.StudentsFeesForm form input {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 10px;
+  color: #000;
+  font-size: 1rem;
+}
+.StudentsFeesForm form button {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #0069d9;
+  }
+  font-size: 1rem;
+  font-weight: 900;
+  margin-top: 20px;
+}
+.Gender {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.Gender label {
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  width: 100%;
+  padding-left: 10px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 900;
+  display: flex;
+}
+.Gender Select {
+  width: 250% !important;
+}
+:where(.css-dev-only-do-not-override-1a3rktk).ant-select-dropdown
+  .ant-select-item {
+  font-size: 1rem;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+:where(.css-dev-only-do-not-override-1a3rktk).ant-select-dropdown {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #000 !important;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-top: 10px;
+  background-color: wheat;
+  margin: 120px !important;
+}
+.details {
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.details1 {
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  overflow-x: scroll;
+  box-shadow: 0 4px 15px rgba(29, 22, 22, 0.3);
+}
+.details1 p {
+  display: flex;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  text-shadow: none !important;
+}
+.details1 p span {
+  color: #000;
+  font-size: 0.9rem;
+}
+.details1 p span:hover , .details p span:hover{
+  color: #000 !important;
+  text-decoration: none !important;
+}
+.details p {
+  display: flex;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  justify-content: flex-start;
+  width: 100%;
+}
+.details p span {
+  color: #000;
+}
+.details p .DescriptionDescription {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  overflow-y: hidden;
+}
+.middle {
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+.bothhh {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #000;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+.middle {
+  position: absolute;
+  bottom: -15px;
+  right: 5px;
+}
+@media screen and (max-width: 576px) {
+  .bothhh {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid #000;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  .middle {
+    position: absolute;
+    bottom: -5px;
+    right: 5px;
+  }
+  .details {
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    overflow-x: scroll;
+  }
+}
+.StudentsFeesGraph{
+  width: 100%;
+}
+.StudentsFeesGraph h2{
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.StudentsFeesGraph .bar{
+  width: 100% !important;
+cursor: progress;
+}
+
+.StudentsFeesList h2{
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.StudentsFeesList ul li{
+  color: #000;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-bottom: 10px;
+  cursor: pointer;
+  &:hover{
+    color: #888;
+  }
+list-style-type:decimal;
+border: 1px solid #000;
+padding: 10px;
+}
+.StudentSearch{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.StudentSearch input{
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 900;
+ border: 1px solid #ccc;
+  margin-right: 10px;
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+  &:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  &:hover {
+
+    outline: none;
+    border-color: #007bff;
+  }
+}
+.StudentSearch button{
+
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: #0069d9;
+  }
+  font-size: 1rem;
+  font-weight: 900;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+  width: 80px;
+  height: 50px;
+}
+.GraphSearch{
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.GraphSearch input{
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+ 
+  color: #000;
+  font-size: 1rem;
+  font-weight: 900;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  background-color: #f1f1f1;
+  transition: background-color 0.3s ease;
+  &:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  &:hover {
+      
+      outline: none;
+      border-color: #007bff;
+    }
+}
+
+.StudentByClass {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3b3b3b;
+  }
+
+  .dropdown-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+
+    label {
+      font-weight: 600;
+      color: #444;
+    }
+
+    select {
+      padding: 8px 12px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      background: #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+
+      &:hover {
+        border-color: #1890ff;
+        box-shadow: 0 0 6px #1890ff55;
+      }
+
+      &:focus {
+        outline: none;
+        border-color: #1890ff;
+      }
+    }
+  }
+
+  .students-list {
+    text-align: center;
+
+    h3 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .student-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .ant-card {
+      animation: fadeIn 0.5s ease-in;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      border-radius: 12px;
+
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .ant-card-cover img {
+        height: 180px;
+        object-fit: cover;
+        border-top-left-radius: 12px;
+        border-top-right-radius: 12px;
+      }
+
+      .ant-card-meta-title {
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.student-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+select {
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+}
+
+select:hover {
+  border-color: #1890ff;
+  background-color: #fff;
+}
+.student-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.student-card {
+  width: 300px;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(to top left, #f9f9f9, #ffffff);
+}
+
+.student-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  border-color: #1890ff;
+}
+
+.ant-card-meta-title {
+  color: #1890ff;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.ant-card-meta-description {
+  color: #555;
+}
+
+select {
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 16px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  transition: 0.3s;
+  margin-top: 10px;
+}
+
+select:hover {
+  border-color: #1890ff;
+  background-color: #fff;
+}
+
+.dropdown-section label {
+  font-weight: 600;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.summary-card {
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  background: #e6f7ff;
+  border: 1px solid #91d5ff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  transition: 0.3s ease-in-out;
+}
+
+.summary-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.summary-card h3 {
+  color: #1890ff;
+  margin-bottom: 0;
+}
+
+.summary-card p {
+  font-size: 16px;
+  color: #333;
+  margin-top: 4px;
+}
+.StudentsFees h1{
+  text-shadow: none !important;
+}
+.NoStudent{
+  text-shadow: none !important;
+  color: #000 !important;
+  font-size: 1.5rem !important;
+  text-align: center;
+  font-weight: 900 !important;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  animation: slide 2s ease-in-out infinite;
+}
+
+@keyframes slide {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* Styling for modal buttons */
+.modal-button {
+  background-color: #0056b3; 
+  border-color: #F291A3;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px; /* Optional: for rounded corners */
+  transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+/* Hover effect */
+.modal-button:hover {
+  background-color: #007bff; /* Hover color */
+  border-color: #0056b3; /* Hover border color */
+}

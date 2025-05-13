@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+
+*{
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    position: relative;
+    height: 450px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    transition:  height 0.3s ease-in-out;
+    overflow: hidden;
+   max-width: 400px;
+   margin: 10px auto !important;
+   box-sizing: border-box;
+}
+.wrapper.active{
+    height: 520px;
+}
+.wrapper .form-box{
+    width: 100%;
+    padding:40px;
+}
+
+form h1{
+    text-align: center !important;
+   font-size: 36px;
+   cursor: pointer;
+   color: #fff !important;
+   display: flex;
+   justify-content: center;
+}
+form .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+  
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+   border:  2px solid rgba(255,255,255,0.1);
+   border-radius: 40px !important;
+   font-size: 16px;
+   color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.TextField{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+   border:  2px solid rgba(255,255,255,0.1);
+   border-radius: 40px;
+   font-size: 16px;
+   color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: #fff;
+}
+.input-box .icon{
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    translate:0 -50%;
+  
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+form .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    margin: -15px 0 15px;
+    font-size: 14.5px;
+}
+.remember-forget label input {
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    accent-color: #fff;
+}
+.remember-forget a{
+    color: #fff;
+    text-decoration: none;
+}
+.remember-forget a:hover{
+    text-decoration: underline;
+}
+form button{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    color: #333;
+    font-weight: 700;
+}
+form .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+    font-weight: 700;
+    cursor: pointer;
+}
+.register-link p a:hover{
+   text-decoration: underline;
+}
+.demooo{
+   font-size: small;
+   border: 3px solid #fff;
+    border-radius: 40px;
+    padding: 10px 15px;
+  margin-bottom:50px ;
+    transition: background-color 0.3s ease-in-out;
+    cursor: pointer;
+    font-weight: 700;
+    text-align: left !important;
+    background-color: transparent;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    color: aqua;
+    width: 230px;
+}
+.sp{
+    font-size: small;
+    border-radius: 40px;
+    padding: 10px 0px;
+  margin-bottom:50px ;
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(20px);
+       
+    }
+  
+    50%{
+        transform: translateY(0px);
+        opacity: 0.5;
+    }
+  
+    100%{
+        transform: translateY(-30px);
+        opacity: 1;
+    }
+}
+.sec{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 10px;
+
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+.rrr{
+    min-width: 350px;
+    max-width: 450px;
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-direction: column;
+}
+span{
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    margin-left: 10px;
+    
+}
+span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: yellow;
+    transition: color 0.3s ease-in-out;
+}
+
+   .Logout{
+       background-color: #fff;
+       color: #000;
+       box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+       cursor: pointer;
+       font-weight: 700;
+       padding: 10px 20px;
+       transition: background-color 0.3s ease-in-out;
+       border-radius: 10px;
+       margin-top: 20px;
+       margin-left: 10px;
+       position: absolute;
+       right: 0;
+       bottom: 0;
+
+   }
+ 
+
+div{
+    text-align: center;
+    color: white;
+}
+.head{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    transition: all 0.3s ease;
+    width: 100%;
+    &:hover{
+ background-color: transparent;
+ border:  1px solid ;
+ width: 100%;
+    }
+  
+}
+
+.wrapper1{
+    width: 100%;
+    display: flex ;
+    height: 100vh;
+    flex-direction: column;
+   
+} 
+.wrapper1 h1{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.wrapper1 p{
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.wrapper1 button{
+    color: white;
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    &:hover{
+        background-color: #0069d9;
+    }
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+[data-aos^=fade][data-aos^=fade].aos-animate{
+    background-color: transparent !important;;
+}
+
+.Register:hover{
+    background-color: #fff !important;
+}

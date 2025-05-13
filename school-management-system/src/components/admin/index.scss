@@ -1,0 +1,86 @@
+.admin {
+  color: #000 !important;
+}
+.admin-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.admin-controls .admin-card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  color: #000;
+  width: 100%;
+  margin-top: 20px;
+  &:hover {
+    box-shadow: 0px 0px 10px rgba(184, 22, 22, 0.1);
+  }
+}
+
+.admin-controls .admin-card h3 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 900 !important;
+  margin-bottom: 10px;
+}
+.admin-controls .admin-card .switch-group {
+  width: 100%;
+  justify-content: space-between;
+  padding: 5px 0;
+  gap: 10px;
+  
+}
+.admin-controls .admin-card .switch-group span {
+  font-size: 16px;
+  color: #000;
+}
+.admin-controls .admin-card .switch-group svg {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.admin-stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.admin-stats .admin-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  color: #000;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.titleee {
+  font-weight: 900 !important;
+}
+.titleee span {
+  font-size: 18px;
+  color: #000;
+  margin-right: 10px;
+}
+.loader-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  backdrop-filter: blur(5px);
+  margin: 0 auto;
+}

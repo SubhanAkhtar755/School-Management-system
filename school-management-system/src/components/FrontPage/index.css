@@ -1,0 +1,789 @@
+.school-container {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+.header-section {
+    position: relative;
+    height: 100vh;
+    background: url(../../assets/images/back-school-cartoon-vector-kids-600w-2493305457.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    /* image blur */
+}
+
+.overlay {
+
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+}
+.visitor-counter {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent background */
+    padding: 8px 16px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
+
+
+.button-group {
+    margin-top: 20px;
+}
+.button-group {
+  display: flex;
+}
+.custom-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.custom-button.primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.custom-button.primary:hover {
+    background-color: #0056b3;
+}
+
+.custom-button.outline {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+}
+
+.custom-button.outline:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.principal-message {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+  
+}
+
+.principal-message img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.principal-message div {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    width: 50%;
+
+}
+.principal-message div h2{
+    font-size: 1rem;
+    font-weight: bold;
+color: #fff;
+}
+.principal-message div p{
+    font-size: 0.8rem;
+    color: #fff;
+    margin-top: 10px;
+    text-align: left;
+    line-height: 1.5;
+}
+.principal-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.mission-section {
+    background: #e9ecef;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    color: #000;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+    background-color: #f1f1f1;
+}
+
+.footer {
+    background: #dbd5d5 !important;
+    color: wheat !important;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.school-container {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Header Section */
+.header-section {
+    background: url(../../assets/images/back-school-cartoon-vector-kids-600w-2493305457.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    margin-top: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: relative;
+   
+}
+
+.overlay {
+
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 60px;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #051441;
+}
+
+.header-title1 {
+    font-size: 16px;
+    animation: fadeIn 2s ease-in-out;
+    color: #000 !important;
+}
+
+.button-group {
+    margin-top: 25px;
+}
+
+/* Buttons */
+.custom-button {
+    padding: 12px 24px;
+    margin: 12px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.custom-button.primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+}
+
+.custom-button.primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.custom-button.outline {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.custom-button.outline:hover {
+    background-color: white;
+    color: black;
+    transform: translateY(-2px);
+}
+
+/* Popup Forms */
+.popup-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+
+}
+
+.form-container {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    width: 420px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    height: 70vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.form-container h2 {
+    color: #000 !important;
+}
+
+.Description {
+    width: 150% !important;
+}
+
+.buttonsC {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttonsC Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 100px;
+    background: #007bff;
+    margin-top: 10px;
+    width: 100%;
+}
+
+/* .form-container input,
+.form-container textarea {
+    width: 100%;
+    margin: 12px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+} */
+
+
+
+/* Sections */
+.section {
+    padding: 30px;
+    text-align: center;
+}
+
+.principal-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    background-color: #007bff;
+
+    &:hover {
+        background-color: #0069d9;
+    }
+
+}
+
+.principal-message div {
+    margin-left: 20px;
+    color: white !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.principal-image {
+    width: 110px;
+    height: 110px;
+    margin-right: 25px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 25px;
+    padding: 25px;
+}
+
+.grid-item {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+.footer {
+    background: #222;
+    color: #000 !important;
+    text-align: center;
+    padding: 15px;
+    font-size: 0.9rem;
+}
+
+.fuether {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    font-size: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 111;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+}
+
+.navbar .logo {
+    width: 40px;
+}
+
+.navbar .logo:hover {
+    scale: 2;
+}
+
+.navbar .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar .links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 992px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .grid-container {
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    }
+
+    .buttonsC Button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 50px;
+        background: #007bff;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .popup-form {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+    .header-section {
+        margin-top: -60px;
+        position: relative;
+        height: 90vh;
+        background: url(../../assets/images/back-school-cartoon-vector-kids-600w-2493305457.jpg ) no-repeat;
+        background-size: auto;
+        background-position: center center;
+        ;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        /* image blur */
+        margin-bottom: -120px;
+    }
+
+    .Description {
+        width: 100% !important;
+    }
+
+    .overlay {
+
+        padding: 15px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        margin-top: 40px;
+    }
+
+    .header-title {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+
+    .button-group {
+        margin-top: 15px;
+    }
+
+    .custom-button {
+        padding: 8px 16px;
+        margin: 8px;
+        border-radius: 4px;
+        font-size: 0.8rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .custom-button.primary {
+        background-color: #007bff;
+        color: white;
+        border: none;
+
+    }
+
+    .custom-button.primary:hover {
+        background-color: #0056b3;
+        transform: translateY(-2px);
+    }
+
+    .custom-button.outline {
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+    }
+
+    .custom-button.outline:hover {
+        background-color: white;
+        color: black;
+        transform: translateY(-2px);
+    }
+
+    .popup-form {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .form-container {
+        color: #000;
+        padding: 20px;
+        border-radius: 12px;
+        width: 320px;
+        text-align: center;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .form-container input,
+    .form-container textarea {
+        width: 100%;
+        margin: 8px 0;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 0.8rem;
+
+    }
+
+
+
+    /* Sections */
+    .section {
+        padding: 10px 20px;
+        text-align: center;
+    }
+.principal-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        /* image blur */
+}
+    .principal-message {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        background-color: #007bff;
+        &:hover {
+            background-color: #0069d9;
+        }
+
+
+        .principal-message div {
+            margin-left: 20px;
+            color: white !important;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .principal-image {
+            width: 100px;
+            height: 100px;
+            margin-right: 25px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+
+        /* Footer */
+        .footer {
+            background: #222;
+            color: #000 !important;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+        }
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #333;
+        color: #fff;
+        font-size: 1rem;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        padding: 8px;
+    }
+
+    .navbar .logo {
+        width: 40px;
+        
+    }
+
+    .navbar .logo:hover {
+        scale: 2;
+    }
+
+    .navbar .links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .navbar .links a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .navbar div {
+        font-size: small;
+    }
+
+    .fuether {
+        margin-top: 10px;
+        display: flex;
+        gap: 10px;
+    }
+    .SelectSelect {
+        width: 100%;
+        border-radius: 6px;
+    }
+    :where(.css-dev-only-do-not-override-1a3rktk).ant-modal .ant-modal-body {
+        color: #000 !important;
+        font-weight: 900;
+    }
+    :where(.css-dev-only-do-not-override-1a3rktk).ant-btn-variant-outlined, :where(.css-dev-only-do-not-override-1a3rktk).ant-btn-variant-dashed{
+        color: #1677ff !important;
+       
+    }
+    :where(.css-dev-only-do-not-override-1a3rktk).ant-btn-variant-outlined, :where(.css-dev-only-do-not-override-1a3rktk).ant-btn-variant-dashed:hover{
+        background: #1677ff !important;
+        text-decoration: none !important;
+        text-decoration-line: none !important;
+    }
+}
+
+.SelectSelect {
+    z-index: 555;
+}
+
+.school-container {
+    font-family: Arial, sans-serif;
+    background-color: #B7C0F9; /* Updated */
+    color: #101240; /* Updated */
+}
+
+.header-section {
+    color: white;
+}
+
+.visitor-counter {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    background: rgba(16, 18, 64, 0.6); /* Dark navy overlay */
+    padding: 8px 16px;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 10px rgba(242, 145, 163, 0.5); /* Pink glow */
+}
+
+.custom-button.primary {
+    background-color: #222673;
+    color: white;
+}
+
+.custom-button.primary:hover {
+    background-color: #4e73df;
+}
+
+.custom-button.outline {
+    background-color: transparent;
+    color: #5A69BF;
+    border: 2px solid #5A69BF;
+}
+
+.custom-button.outline:hover {
+   
+   background-color: #5A69BF;
+    color: white;
+}
+
+.principal-message {
+    background: #222673;
+}
+
+.principal-message div h2,
+.principal-message div p {
+    color: #fff; /* Pink text for highlight */
+}
+
+.grid-item {
+    background: white;
+    color: #101240;
+}
+
+.grid-item:hover {
+    background-color: #952c27;
+    color: white;
+}
+
+.footer {
+    background: #101240;
+    color: #F291A3;
+}
+
+/* Navbar */
+.navbar {
+    background: #222673;
+    color: white;
+}
+
+/* Popup form buttons */
+.buttonsC Button {
+    background: #222673;
+}
+.buttonsC Button:hover {
+    background: #4e73df;
+}
+/* Modal Buttons (Ant Design) */
+:where(.css-dev-only-do-not-override-1a3rktk).ant-btn-variant-outlined,
+:where(.css-dev-only-do-not-override-1a3rktk).ant-btn-variant-dashed {
+    color: #000 !important;
+}
+
+:where(.css-dev-only-do-not-override-1a3rktk).ant-btn-variant-outlined:hover,
+:where(.css-dev-only-do-not-override-1a3rktk).ant-btn-variant-dashed:hover {
+    background: #000 !important;
+    color: black !important;
+}
+
+
+/* Responsive Footer */
+@media screen and (max-width: 576px) {
+    .footer {
+        background: #101240;
+        color: #F291A3 !important;
+    }
+}
+.fuether .number p , .fuether .addrees p{
+color: #fff;
+}
+.principal-message:hover{
+    background-color: #4e73df;
+    color: white;
+}
