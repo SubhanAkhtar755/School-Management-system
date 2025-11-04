@@ -114,3 +114,9 @@ Students and staff data is synced in real-time using Firebase Realtime Database,
 3. Manage students, teachers, fees, results, and events dynamically.  
 
 ---
+##  Author
+
+**Muhammad Subhan Akhtar**  
+📧 [muhammadsubhan192128@gmail.com](mailto:muhammadsubhan192128@gmail.com)  
+🌐 [Portfolio Website](https://m-subhan-portfolio.web.app)  
+💬 Open for collaborations & freelance web projects.
